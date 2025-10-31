@@ -9,7 +9,7 @@ public class Main{
         //ciclo que apresenta a lista de convidados
         for (int i=0; i< convidados.length; i++) {
 
-            System.out.println(convidados [i]);
+            System.out.println(convidados[i]);
         }
     }
     }
