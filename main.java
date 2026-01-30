@@ -23,7 +23,7 @@ public class main{
         System.out.println("Obtém a idade da pessoa 2: "+pessoa2.getIdade());
 
         //Aterar o nome da pessoa 1
-        System.out.println("Emanuel");
+        pessoa1.setNome("Emanuel");
         System.out.println("Novo nome da pessoa1: "+pessoa1.getNome());
 
        
