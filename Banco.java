@@ -32,7 +32,7 @@ public class Banco {
     }
 
     public void levantar(double valor){
-        if (valor <= saldo) {
+        if (valor >0 && saldo <= valor) {
             this.saldoAnterior = this.saldo;
             this.saldo -= valor;
         } else {
